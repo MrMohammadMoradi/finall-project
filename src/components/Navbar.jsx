@@ -10,6 +10,7 @@ function Navbar() {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent text-white">
                     
+                    <SocialMedia/>
                 </div>
             </div>
         </nav>

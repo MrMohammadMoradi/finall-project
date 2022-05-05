@@ -1,3 +1,8 @@
 .App {
   text-align: center;
+  direction: rtl;
+}
+
+.SocialMediaSecion {
+  margin:auto;
 }

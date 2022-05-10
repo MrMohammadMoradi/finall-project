@@ -1,8 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: unset;
+}
+
+
 .App {
   text-align: center;
   direction: rtl;
 }
 
-.SocialMediaSecion {
-  margin:auto;
+
+.navbar {
+  background: #174b44;
+}
+.list {
+  list-style-type: none;
+}
+.list li .linkedToPage{
+  padding:10px;
+  color:#fff;
+  text-decoration:none;
+  transition:0.5s;
+  border-radius:12px;
+}
+
+.list li .linkedToPage:hover{
+  background: #174b44;;
+  color:#fff;
+  border-radius:18px;
+  transition:0.3s;
+  box-shadow: 1px 4px 5px 1px #555;
+}
+.list li a input {
+  color: #fff;
+  background: #2a6960;
+  
 }

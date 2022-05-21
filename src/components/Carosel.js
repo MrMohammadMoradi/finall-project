@@ -60,7 +60,7 @@ function Carosel() {
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
-            <img className='CarouselEASE' src={ease}/>
+            <img className='CarouselEASE' src={ease} alt = "EASE"/>
         </div>
     )
 }

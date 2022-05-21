@@ -7,11 +7,13 @@ import './App.css';
 import 'bootstrap-icons/font/bootstrap-icons.css'
 
 import Navbar from './components/Navbar';
+import Carousel from './components/Carosel';
 
 function App() {
   return (
     <div className="App bg-info">
       <Navbar/>
+      <Carousel/>
     </div>
   );
 }

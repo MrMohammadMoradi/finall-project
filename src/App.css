@@ -82,3 +82,10 @@
 .mainArchivEase {
   background: rgb(109, 101, 101);
 }
+
+.ContentCard {
+  background: #c39a3e;
+}
+.ContentCard .seeMore {
+  margin-right: 35%;
+}

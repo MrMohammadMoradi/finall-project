@@ -78,6 +78,13 @@
 }
 
 
+.SideBar {
+  flex-wrap: wrap;
+}
+.BrandArshivePage {
+  width: 100%;
+  height: 250px;
+}
 
 .mainArchivEase {
   background: rgb(109, 101, 101);

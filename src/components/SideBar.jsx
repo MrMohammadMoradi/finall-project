@@ -7,7 +7,7 @@ import TableOfContents from './TableOfContents'
 
 function sidebar() {
     return (
-        <div className='SideBar d-flex col-xl-4 col-md-3 col-12'>
+        <div className='SideBar d-flex col-xl-4 col-md-3 col-12 me-2 '>
             <Brand/>
             <ContentCard/>
             <TableOfContents/>

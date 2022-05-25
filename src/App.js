@@ -9,13 +9,15 @@ import 'bootstrap-icons/font/bootstrap-icons.css'
 import Navbar from './components/Navbar';
 import Carousel from './components/Carosel';
 import Sidebar from './components/SideBar.jsx'
+import MainText from './components/MainText';
 
 function App() {
   return (
-    <div className="App bg-info">
+    <div className="App">
       <Navbar/>
       <Carousel/>
-      <div className='container'>
+      <div className='container d-flex my-3'>
+        <MainText/>
         <Sidebar/>
       </div>
     </div>

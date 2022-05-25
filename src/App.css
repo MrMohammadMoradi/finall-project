@@ -78,6 +78,8 @@
 }
 
 
+
+
 .SideBar {
   flex-wrap: wrap;
 }
@@ -100,4 +102,8 @@
 
 .TableOfContents {
   background: #596758;
+}
+.MainText .TextAndImg {
+  border: 1px solid #cdcdcd;
+
 }

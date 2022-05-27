@@ -6,7 +6,6 @@
 
 
 .App {
-  text-align: center;
   direction: rtl;
 }
 
@@ -103,7 +102,20 @@
 .TableOfContents {
   background: #596758;
 }
-.MainText .TextAndImg {
+.MainText .TextAndImg, .RelatedPosts {
   border: 1px solid #cdcdcd;
 
+}
+
+
+
+.PostImage {
+  width: 250px;
+  height: 180px;
+}
+.DateAndMore .DateSpan{
+  width: 5px;
+  height: 20px;
+  background-color: #c77000;
+  margin-top: 0.5rem;
 }

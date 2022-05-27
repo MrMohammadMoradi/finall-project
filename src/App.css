@@ -79,6 +79,7 @@
 
 
 
+
 .SideBar {
   flex-wrap: wrap;
 }
@@ -106,7 +107,12 @@
   border: 1px solid #cdcdcd;
 
 }
-
+.MainText .TextAndImg .ielts {
+  margin-right: 12%;
+}
+.UnderText span {
+  margin-top: 1.5rem;
+}
 
 
 .PostImage {

@@ -2,7 +2,7 @@ import React from 'react'
 
 function ContentCard() {
     return (
-        <div className='ContentCard mb-3'>
+        <div className='ContentCard d-flex'>
             <h3 className='CCTitle text-white text-end fw-bold me-3 my-4'>
                 این همون عنوان مطلب است
             </h3>

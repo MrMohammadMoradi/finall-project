@@ -5,7 +5,7 @@ import ease from '../assets/Image/EASE.png'
 
 function Brand() {
     return (
-        <div className='BrandArshivePage my-3'>
+        <div className='BrandArshivePage'>
             <img className='mainArchivEase w-100 h-100' src={ease} alt='EASE'/>
         </div>
     )

@@ -10,16 +10,20 @@ import Navbar from './components/Navbar';
 import Carousel from './components/Carosel';
 import Sidebar from './components/SideBar.jsx'
 import MainText from './components/MainText';
+import RecentCourses from './components/RecentCourses';
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
       <Carousel/>
-      <div className='container d-flex my-3'>
-        <MainText/>
-        <Sidebar/>
+      <div className='Archiv'>
+        <div className='container d-flex my-3'>
+          <MainText/>
+          <Sidebar/>
+        </div>
       </div>
+      <RecentCourses/>
     </div>
   );
 }

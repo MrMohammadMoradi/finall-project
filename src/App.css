@@ -77,7 +77,7 @@
 }
 
 
-.container {
+.Archiv .container {
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
@@ -142,3 +142,28 @@
   background-color: #c77000;
   margin-top: 0.5rem;
 }
+
+
+
+.RecentCourses {
+  background: #596758;
+}
+.RecentCourses .container .Title {
+  position: relative;
+}
+.RecentCourses .container .Title span {
+  position: absolute;
+  width: 65px;
+  height: 3px;
+  /*border-bottom: 2px 30px #edbf47;*/
+  background-color: #edbf47;
+}
+
+
+
+
+
+
+
+
+

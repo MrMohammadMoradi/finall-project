@@ -11,6 +11,7 @@ import Carousel from './components/Carosel';
 import Sidebar from './components/SideBar.jsx'
 import MainText from './components/MainText';
 import RecentCourses from './components/RecentCourses';
+import OurColleagues from './components/OurColleagues';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         </div>
       </div>
       <RecentCourses/>
+      <OurColleagues/>
     </div>
   );
 }

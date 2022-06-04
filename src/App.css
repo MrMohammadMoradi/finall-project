@@ -165,5 +165,36 @@
 
 
 
+.CardSesion {
+  justify-content: space-between
+}
+
+.CoursesCard {
+  flex-basis: 32.5%;
+}
+.CoursesCard a{
+  text-decoration: none
+
+}
+
+.CoursesCard .Teacher img {
+  width: 30px;
+  height: 30px;
+}
+
+
+.CoursesCard .Line {
+  height: 1px;
+  background: #a4a4a4;
+  margin-top: 0.8rem;
+}
+
+.Rate i {
+  color: #f6e100;
+  overflow: hidden;
+}
+
+
+
 
 

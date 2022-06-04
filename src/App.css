@@ -203,3 +203,23 @@
 
 
 
+
+
+.OurColleagues .container {
+  color: #828282;
+}
+.OurColleagues .container h5 {
+  color: #a4a4a4;
+}
+.OurColleagues .container .SubTitle {
+  position: absolute;
+}
+.OurColleagues .container .SubTitle span {
+  position: absolute;
+  width: 75px;
+  height: 4px;
+  background-color: #edbf47;
+}
+
+
+

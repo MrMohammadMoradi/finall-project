@@ -189,6 +189,11 @@
   margin-top: 0.8rem;
 }
 
+.CoursesCard .OldPrice {
+  text-decoration: line-through 2px ;
+}
+
+
 .Rate i {
   color: #f6e100;
   overflow: hidden;

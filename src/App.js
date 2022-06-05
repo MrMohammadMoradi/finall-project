@@ -12,6 +12,7 @@ import Sidebar from './components/SideBar.jsx'
 import MainText from './components/MainText';
 import RecentCourses from './components/RecentCourses';
 import OurColleagues from './components/OurColleagues';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       </div>
       <RecentCourses/>
       <OurColleagues/>
+      <Footer/>
     </div>
   );
 }

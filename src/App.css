@@ -242,3 +242,8 @@
   height: 20px;
   fill: white;
 }
+
+.Footer .ReSources a{
+  color: white;
+  text-decoration: none;
+}

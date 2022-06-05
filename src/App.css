@@ -235,6 +235,7 @@
 
 .Footer {
   background: #0c221c;
+  flex-wrap: wrap;
 }
 
 .Footer .address i{

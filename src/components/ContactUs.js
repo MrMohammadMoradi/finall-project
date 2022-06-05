@@ -2,7 +2,7 @@ import React from 'react'
 
 function ContactUs() {
     return (
-        <div className='ContactUs my-5'>
+        <div className='ContactUs my-5 col-lg-4 clo-sm-6 col-12 '>
             <h5 className='fw-bold my-3'>تماس با ما</h5>
 
             <h5 className='mt-3' >شهر زنجان</h5>

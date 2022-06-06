@@ -1,5 +1,6 @@
 import React from 'react'
 import ContactUs from './ContactUs'
+import NewsLetter from './NewsLetter'
 import ReSources from './ReSources'
 import ShortcutLinks from './ShortcutLinks'
 
@@ -10,6 +11,7 @@ function Footer() {
                 <ContactUs/>
                 <ReSources/>
                 <ShortcutLinks/>
+                <NewsLetter/>
             </div>
             
         </div>

@@ -11,6 +11,13 @@ function NewsLetter() {
                 آموزش ، اخبار و بروزرسانی ها. 
             </p>
 
+            <div className='EmailBox'>
+                <input className='rounded-pill py-3 bg-whaite pe-3' type="text" placeholder='ایمیل شما' required/>
+                <button className='rounded-circle p-3 border-0'>
+                    <i class="bi bi-chevron-left"></i>
+                </button>
+            </div>
+
         </div>
     )
 }

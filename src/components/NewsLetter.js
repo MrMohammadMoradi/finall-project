@@ -18,6 +18,28 @@ function NewsLetter() {
                 </button>
             </div>
 
+            <div className='SosialMedia pt-4'>
+                
+                <a href='#' className='px-2'>
+                    <i class="bi bi-twitter"></i>
+                </a>
+                <a href='#' className='px-3'>
+                    <i class="bi bi-facebook"></i>
+                </a>
+                <a href='#' className='px-2'>
+                    <i class="bi bi-pinterest"></i>
+                </a>
+                <a href='#' className='px-3'>
+                    <i class="bi bi-linkedin"></i>
+                </a>
+                <a href='#' className='px-2'>
+                    <i class="bi bi-instagram"></i>
+                </a>
+                
+                
+
+            </div>
+
         </div>
     )
 }

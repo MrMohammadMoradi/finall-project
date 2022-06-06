@@ -238,13 +238,17 @@
   flex-wrap: wrap;
 }
 
+.Footer a{
+  color: white;
+  text-decoration: none;
+}
+
 .Footer .address i{
   width: 20px;
   height: 20px;
   fill: white;
 }
 
-.Footer a{
-  color: white;
-  text-decoration: none;
+.Footer .PhoneNumber {
+  color: #1a9066;
 }

@@ -2,6 +2,7 @@ import React from 'react'
 import CoursesCard from './CoursesCard'
 
 import i1 from '../assets/Image/Image.png' 
+import Title from './Title'
 
 function RecentCourses() {
     const CardInfo = [
@@ -25,9 +26,8 @@ function RecentCourses() {
         <div className='RecentCourses'>
             <div className="container my-3">
                 <div className='Title text-white py-5'>
-                    <h3 className='py-3 fs-3'> آخرین دوره های آیلتس ایز </h3>
-                    <p className='mb-0 pb-2 fw-bold fs-5'> چرا باید آیلتس ایز را انتخاب کنیم؟ </p>
-                    <span className='mt-2 mb-3'> </span>
+                    <Title title={" آخرین دوره های آیلتس ایز"} 
+                        paragraph={"چرا باید آیلتس ایز را انتخاب کنیم؟"}/>
                 </div>
                 <div className='CardSesion d-flex flex-wrap mb-4 pb-5 '>
                     {

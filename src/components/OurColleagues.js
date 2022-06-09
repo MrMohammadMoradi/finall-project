@@ -1,5 +1,7 @@
 import React from 'react'
 import ColleagueCard from './ColleagueCard'
+import Title from './Title'
+
 
 import media from '../assets/Image/media.jpg'
 import media2 from '../assets/Image/media2.jpg'
@@ -22,11 +24,7 @@ function OurColleagues() {
     return (
         <div className='OurColleagues mt-5'>
             <div className='container my-5'>
-                <h2 className='my-3'>همکاران ما</h2>
-                <div className='SubTitle pb-5'>
-                    <h5 className=''>بهترین کادر آموزشی برای فرزندان شما</h5>
-                    <span className='Line mt-2'/>
-                </div>
+                <Title title={"همکاران ما"} paragraph={"بهترین کادر آموزشی برای فرزندان شما"}/>
                 <div className='Colleague mt-5 py-4 d-flex'>
                     
                     {

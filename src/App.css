@@ -148,16 +148,6 @@
 .RecentCourses {
   background: #596758;
 }
-.RecentCourses .container .Title {
-  position: relative;
-}
-.RecentCourses .container .Title span {
-  position: absolute;
-  width: 65px;
-  height: 3px;
-  /*border-bottom: 2px 30px #edbf47;*/
-  background-color: #edbf47;
-}
 
 
 
@@ -229,15 +219,6 @@
 }
 .OurColleagues .container h5 {
   color: #a4a4a4;
-}
-.OurColleagues .container .SubTitle {
-  position: absolute;
-}
-.OurColleagues .container .SubTitle span {
-  position: absolute;
-  width: 75px;
-  height: 4px;
-  background-color: #edbf47;
 }
 
 .ColleagueCard {

@@ -165,6 +165,25 @@
 
 
 
+
+.Title {
+  position: relative;
+}
+.Title span {
+  position: absolute;
+  width: 75px;
+  height: 4px;
+  background-color: #edbf47;
+}
+
+
+
+
+
+
+
+
+
 .CardSesion {
   justify-content: space-between
 }

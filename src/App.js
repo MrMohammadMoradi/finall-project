@@ -13,6 +13,7 @@ import MainText from './components/MainText';
 import RecentCourses from './components/RecentCourses';
 import OurColleagues from './components/OurColleagues';
 import Footer from './components/Footer';
+import WhyIeltsEase from './components/WhyIeltsEase';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         </div>
       </div>
       <RecentCourses/>
+      <WhyIeltsEase/>
       <OurColleagues/>
       <Footer/>
     </div>

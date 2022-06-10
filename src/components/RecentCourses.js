@@ -24,7 +24,7 @@ function RecentCourses() {
 
     return (
         <div className='RecentCourses'>
-            <div className="container my-3">
+            <div className="container mb-3">
                 <div className='Title text-white py-5'>
                     <Title title={" آخرین دوره های آیلتس ایز"} 
                         paragraph={"چرا باید آیلتس ایز را انتخاب کنیم؟"}/>

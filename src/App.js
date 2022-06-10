@@ -26,8 +26,8 @@ function App() {
           <Sidebar/>
         </div>
       </div>
-      <RecentCourses/>
       <WhyIeltsEase/>
+      <RecentCourses/>
       <OurColleagues/>
       <Footer/>
     </div>

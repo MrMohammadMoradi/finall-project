@@ -1,5 +1,6 @@
 import React from 'react'
 import Title from './Title'
+import PositivePointCard from './PositivePointCard'
 
 function WhyIeltsEase() {
     return (
@@ -9,7 +10,7 @@ function WhyIeltsEase() {
                     paragraph={"چرا باید آیلتس ایز را انتخاب کنیم؟"}/>
                 
                 <div className='ReasonForWhy d-flex'>
-                    
+                    <PositivePointCard/>
                 </div>
 
             </div>

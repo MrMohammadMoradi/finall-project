@@ -281,3 +281,9 @@
 .AnswerToWhy .Title h5 {
   color: #a0a0a0;
 }
+
+.AnswerCard .number {
+  color: #e4e4e4;
+  font-size: 115px;
+  margin: -30px 0 -25px 0;
+}

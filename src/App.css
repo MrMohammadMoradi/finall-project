@@ -269,3 +269,15 @@
 .PositivePointCard button {
   background: #928a74;
 }
+
+
+
+.AnswerToWhy {
+  background: #f7f7f7;
+}
+.AnswerToWhy .Title h2 {
+  color: #828282;
+}
+.AnswerToWhy .Title h5 {
+  color: #a0a0a0;
+}

@@ -16,10 +16,9 @@ function AnswerToWhy() {
 
     return (
         <div className='AnswerToWhy'>
-            <div className='container'>
+            <div className='container py-3'>
                 <Title title={"چرا آیلتس ایز؟"}
                     paragraph={"چرا باید آیلتس ایز را انتخاب کنیم؟"}/>
-
                 
                 <div className='d-flex flex-wrap'>
                     {
@@ -28,7 +27,6 @@ function AnswerToWhy() {
                     }
                 </div>
             </div>
-
         </div>
     )
 }

@@ -15,6 +15,7 @@ import OurColleagues from './components/OurColleagues';
 import Footer from './components/Footer';
 import WhyIeltsEase from './components/WhyIeltsEase';
 import AnswerToWhy from './components/AnswerToWhy';
+import Blog from './components/Blog';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
       <RecentCourses/>
       <AnswerToWhy/>
       <OurColleagues/>
+      <Blog/>
       <Footer/>
     </div>
   );

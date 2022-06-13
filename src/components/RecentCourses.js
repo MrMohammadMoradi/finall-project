@@ -24,12 +24,12 @@ function RecentCourses() {
 
     return (
         <div className='RecentCourses'>
-            <div className="container mb-3">
+            <div className="container">
                 <div className='Title text-white py-5'>
                     <Title title={" آخرین دوره های آیلتس ایز"} 
                         paragraph={"چرا باید آیلتس ایز را انتخاب کنیم؟"}/>
                 </div>
-                <div className='CardSesion d-flex flex-wrap mb-4 pb-5 '>
+                <div className='CardSesion d-flex flex-wrap pb-5 '>
                     {
                         CardInfo.map(item =>
                             <CoursesCard title = {item.title} image = {item.image}

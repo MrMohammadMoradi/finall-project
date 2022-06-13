@@ -1,5 +1,6 @@
 import React from 'react'
 import Title from './Title'
+import BlogCard from './BlogCard'
 
 function Blog() {
     return (
@@ -13,7 +14,7 @@ function Blog() {
                     </button>
                 </div>
                 <div className='d-flex'>
-                    
+                    <BlogCard/>
                 </div>
 
             </div>

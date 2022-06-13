@@ -1,20 +1,20 @@
 import React from 'react'
 
-function BlogCard() {
+function BlogCard({image, category, title, date}) {
     return (
         <div className='BlogCard '>
             <a className='' href='#'>
-                <img className='' src='' alt=''/>
-                <p className=''>
-
+                <img className='' src={image} alt=''/>
+                <p className='category'>
+                    {category}
                 </p>
-                <h5 className=''>
-
+                <h5 className='title'>
+                    {title}
                 </h5>
-                <div className=' d-flex'>
+                <div className='date-sesion d-flex'>
                     <i class="bi bi-clock"></i>
                     <p className=''>
-
+                        {date}
                     </p>
                 </div>
             </a>

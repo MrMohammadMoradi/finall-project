@@ -301,3 +301,11 @@
     margin-right: auto;
     color: #c39a3e;
 }
+
+
+.BlogCard a {
+  text-decoration: none;
+}
+.BlogCard p {
+  color: #838383;
+}

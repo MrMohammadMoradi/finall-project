@@ -7,10 +7,10 @@ import img from '../assets/Image/Image.png'
 function Blog() {
 //image, category, title, date
     const data = [
-        {id: 0, image: img, category: " آکادمی ها", title: "زن و شوهر از دانشجویان دانشگاه هپی فارغ التحصیل شد ", data: "۲۳ خرداد ۱۳۹۷"},
-        {id: 1, image: img, category: " دولت", title: "نکات مفید برای ایجاد یک بحث با کیفیت", data: "۲۳ خرداد ۱۳۹۷"},
-        {id: 2, image: img, category: " طراحی", title: "بازتاب فصل فجر", data: "۲۳ خرداد ۱۳۹۷"},
-        {id: 3, image: img, category: " طراحی", title: "شگفت انگیز است که دوستی هایی را که توسعه می یابند ببینید", data: "۲۳ خرداد ۱۳۹۷"}
+        {id: 0, image: img, category: " آکادمی ها", title: "زن و شوهر از دانشجویان دانشگاه هپی فارغ التحصیل شد ", date: "۲۳ خرداد ۱۳۹۷"},
+        {id: 1, image: img, category: " دولت", title: "نکات مفید برای ایجاد یک بحث با کیفیت", date: "۲۳ خرداد ۱۳۹۷"},
+        {id: 2, image: img, category: " طراحی", title: "بازتاب فصل فجر", date: "۲۳ خرداد ۱۳۹۷"},
+        {id: 3, image: img, category: " طراحی", title: "شگفت انگیز است که دوستی هایی را که توسعه می یابند ببینید", date: "۲۳ خرداد ۱۳۹۷"}
 
     ]
 
@@ -24,7 +24,7 @@ function Blog() {
                         نمایش همه مطالب
                     </button>
                 </div>
-                <div className='d-flex'>
+                <div className='d-flex flex-wrap'>
                     <BlogCard/>
                 </div>
 

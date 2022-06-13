@@ -25,7 +25,11 @@ function Blog() {
                     </button>
                 </div>
                 <div className='d-flex flex-wrap'>
-                    <BlogCard/>
+                    {
+                        data.map(item => 
+                            <BlogCard image={item.image} category={item.category} title={item.title} date={item.date}/>
+                            )
+                    }
                 </div>
 
             </div>

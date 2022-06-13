@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# This is my final project on the Front-end learning path
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## more about react 
 
 ## Available Scripts
 

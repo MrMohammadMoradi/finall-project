@@ -309,3 +309,32 @@
 .BlogCard p {
   color: #838383;
 }
+
+
+
+
+
+
+
+
+.Menu a {
+  text-decoration: none;
+  color: black;
+} 
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    border: none;
+}

@@ -16,11 +16,13 @@ import Footer from './components/Footer';
 import WhyIeltsEase from './components/WhyIeltsEase';
 import AnswerToWhy from './components/AnswerToWhy';
 import Blog from './components/Blog';
+import Menu from './components/Menu';
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
+      <Menu/>
       <Carousel/>
       <div className='Archiv'>
         <div className='container d-flex my-3'>

@@ -38,6 +38,23 @@ function Menu() {
                         <li> Text 4 </li>
                     </ul>
                 </li>
+                <li className="nav-item dropdown mt-2 px-lg-2">
+                    <a className='' href='#'> فروشگاه </a>
+                </li>
+                <li className="nav-item dropdown mt-2 px-lg-2">
+                    <a className='' href='#'> وبلاگ </a>
+                </li>
+                <li className="nav-item dropdown mt-2 px-lg-2">
+                    <a className='' href='#'> فروشگاه </a>
+                </li>
+                <li className="nav-item dropdown mt-2 px-lg-2">
+                    <a className='' href='#'> وبلاگ </a>
+                </li>
+                <li className="nav-item dropdown mt-2 px-lg-2">
+                    <a className='' href='#'>
+                        <i class="bi bi-search"></i>
+                    </a>
+                </li>
                 
             </ul>
         </div>

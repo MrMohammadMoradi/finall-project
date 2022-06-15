@@ -3,7 +3,7 @@ import Carosel from '../components/Carosel'
 import MainText from '../components/MainText'
 import Sidebar from '../components/SideBar.jsx'
 import RecentCourses from '../components/RecentCourses'
-
+import OurColleagues from '../components/OurColleagues'
 
 function IeltsEaseArchivePage() {
     return (
@@ -14,6 +14,7 @@ function IeltsEaseArchivePage() {
                 <Sidebar/>
             </div>
             <RecentCourses/>
+            <OurColleagues/>
 
             
         </div>

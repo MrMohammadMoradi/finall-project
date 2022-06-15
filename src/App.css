@@ -236,6 +236,7 @@
 .Footer {
   background: #0c221c;
   flex-wrap: wrap;
+  direction: rtl;
 }
 
 .Footer a{
@@ -337,4 +338,34 @@
 .dropdown:hover .dropdown-menu {
     display: block;
     border: none;
+}
+
+
+
+.IeltsEaseMainPage {
+  direction: rtl;
+}
+.IeltsEaseMainPage .HeaderSesion {
+  background-image: url('./assets/Image/Consulting.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.HeaderSesion .SubHeader img{
+  width: 150px;
+  margin: -85px -2rem -50px 0;
+}
+
+.HeaderSesion .Colored , button{
+  color: #c77000;
+}
+.HeaderSesion .SubHeader .Colored span {
+  width: 40px;
+  height: 2px;
+  background-color: #c77000;
+}
+
+.HeaderSesion .subTitr {
+  width: 450px;
 }

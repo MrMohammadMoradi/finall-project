@@ -9,6 +9,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css'
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import IeltsEaseMainPage from './Pages/IeltsEaseMainPage';
+import IeltsEaseArchivePage from './Pages/IeltsEaseArchivePage';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path='/' element={<IeltsEaseMainPage/>}/>
+        <Route path='/Archive' element={<IeltsEaseArchivePage/>}/>
       </Routes>
       <Footer/>
     </BrowserRouter>

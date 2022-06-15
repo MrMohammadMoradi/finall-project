@@ -3,6 +3,7 @@ import React from 'react'
 import Menu from '../components/Menu'
 import Brand from '../components/Brand'
 import ContentCard from '../components/ContentCard'
+import WhyIeltsEase from '../components/WhyIeltsEase'
 
 import image from '../assets/Image/EASE.png'
 
@@ -42,6 +43,7 @@ function IeltsEaseMainPage() {
                 <ContentCard/>
                 <Brand/>
             </div>
+            <WhyIeltsEase/>
         
         </div>
     )

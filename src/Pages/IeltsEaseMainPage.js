@@ -7,6 +7,7 @@ import WhyIeltsEase from '../components/WhyIeltsEase'
 import RecentCourses from '../components/RecentCourses'
 import AnswerToWhy from '../components/AnswerToWhy'
 import OurColleagues from '../components/OurColleagues'
+import Blog from '../components/Blog'
 
 import image from '../assets/Image/EASE.png'
 
@@ -50,6 +51,7 @@ function IeltsEaseMainPage() {
             <RecentCourses/>
             <AnswerToWhy/>
             <OurColleagues/>
+            <Blog/>
         </div>
     )
 }

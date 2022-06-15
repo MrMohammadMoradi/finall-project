@@ -2,6 +2,7 @@ import React from 'react'
 import Carosel from '../components/Carosel'
 import MainText from '../components/MainText'
 import Sidebar from '../components/SideBar.jsx'
+import RecentCourses from '../components/RecentCourses'
 
 
 function IeltsEaseArchivePage() {
@@ -12,6 +13,8 @@ function IeltsEaseArchivePage() {
                 <MainText/>
                 <Sidebar/>
             </div>
+            <RecentCourses/>
+
             
         </div>
     )

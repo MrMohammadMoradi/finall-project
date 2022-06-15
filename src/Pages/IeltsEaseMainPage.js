@@ -5,6 +5,7 @@ import Brand from '../components/Brand'
 import ContentCard from '../components/ContentCard'
 import WhyIeltsEase from '../components/WhyIeltsEase'
 import RecentCourses from '../components/RecentCourses'
+import AnswerToWhy from '../components/AnswerToWhy'
 
 import image from '../assets/Image/EASE.png'
 
@@ -46,6 +47,7 @@ function IeltsEaseMainPage() {
             </div>
             <WhyIeltsEase/>
             <RecentCourses/>
+            <AnswerToWhy/>
         </div>
     )
 }

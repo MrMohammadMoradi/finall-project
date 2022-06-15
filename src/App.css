@@ -352,7 +352,7 @@
 
 }
 
-.HeaderSesion .SubHeader img{
+.HeaderSesion img{
   width: 150px;
   margin: -85px -2rem -50px 0;
 }
@@ -360,7 +360,7 @@
 .HeaderSesion .Colored , button{
   color: #c77000;
 }
-.HeaderSesion .SubHeader .Colored span {
+.HeaderSesion  .Colored span {
   width: 40px;
   height: 2px;
   background-color: #c77000;
@@ -368,4 +368,15 @@
 
 .HeaderSesion .subTitr {
   width: 450px;
+}
+
+
+.SubHeader .ContentCard{
+  width: 50%;
+  background: #c77000;
+}
+
+.SubHeader .BrandArshivePage {
+  width: 50%;
+  height: 300px;
 }

@@ -11,6 +11,7 @@
 
 
 .navbar {
+  direction: rtl;
   background: #174b44;
 }
 .list {
@@ -386,4 +387,14 @@
 .SubHeader .BrandArshivePage {
   width: 50%;
   height: 300px;
+}
+
+
+
+.IeltsEaseArchivePage {
+  direction: rtl;
+}
+.IeltsEaseArchivePage .container {
+    justify-content: space-evenly;
+
 }

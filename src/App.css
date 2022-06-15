@@ -375,6 +375,13 @@
   width: 50%;
   background: #c77000;
 }
+.SubHeader .ContentCard p{
+  padding: 0 60px;
+}
+.SubHeader .ContentCard button {
+  margin-right: 50px;
+}
+
 
 .SubHeader .BrandArshivePage {
   width: 50%;

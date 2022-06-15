@@ -4,6 +4,7 @@ import Menu from '../components/Menu'
 import Brand from '../components/Brand'
 import ContentCard from '../components/ContentCard'
 import WhyIeltsEase from '../components/WhyIeltsEase'
+import RecentCourses from '../components/RecentCourses'
 
 import image from '../assets/Image/EASE.png'
 
@@ -44,7 +45,7 @@ function IeltsEaseMainPage() {
                 <Brand/>
             </div>
             <WhyIeltsEase/>
-        
+            <RecentCourses/>
         </div>
     )
 }
